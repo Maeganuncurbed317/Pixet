@@ -18,6 +18,11 @@ const EditorPage = lazy(async () => {
   return { default: module.EditorPage };
 });
 
+const CreatorPage = lazy(async () => {
+  const module = await import('./pages/CreatorPage');
+  return { default: module.CreatorPage };
+});
+
 const PageLoadingFallback = (
   <div className="p-6 bg-[var(--color-bg)] transition-colors">
     <div className="border border-[color:var(--color-border)] bg-[var(--color-surface)] p-8 text-center text-[11px] font-mono tracking-widest uppercase text-[var(--color-text-muted)] transition-colors">
@@ -36,6 +41,10 @@ const prefetchEditorAssets = () => {
   void import('./pages/EditorPage');
   void import('./components/PreviewModal');
   warmIcons();
+};
+
+const prefetchCreatorAssets = () => {
+  void import('./pages/CreatorPage');
 };
 
 export default function App() {
@@ -61,6 +70,7 @@ export default function App() {
 
     return runWhenIdle(() => {
       prefetchEditorAssets();
+      prefetchCreatorAssets();
     }, 450);
   }, []);
 
@@ -130,6 +140,15 @@ export default function App() {
             >
               Editor
             </NavLink>
+            <NavLink
+              to="/creator"
+              className={getNavLinkClassName}
+              onMouseEnter={prefetchCreatorAssets}
+              onFocus={prefetchCreatorAssets}
+              onTouchStart={prefetchCreatorAssets}
+            >
+              Creator
+            </NavLink>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -166,6 +185,14 @@ export default function App() {
             element={(
               <Suspense fallback={PageLoadingFallback}>
                 <EditorPage theme={theme} />
+              </Suspense>
+            )}
+          />
+          <Route
+            path="/creator"
+            element={(
+              <Suspense fallback={PageLoadingFallback}>
+                <CreatorPage theme={theme} />
               </Suspense>
             )}
           />
